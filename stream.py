@@ -17,3 +17,5 @@ st.write(data)
 chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 
 st.bar_chart(chart_data)
+
+st.link_button("# Visit my github to see the code!", "https://github.com/ishitachakka/streamlitSample")
